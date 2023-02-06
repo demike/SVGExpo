@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react",
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@figma"
+    ],
+    "baseUrl": ".",
+    "paths": {
+        "svgo": ["node_modules/svgo/lib/svgo.d.ts"] 
+    } 
+   
+  },
+  
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}

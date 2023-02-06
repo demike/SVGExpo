@@ -1,0 +1,10 @@
+.export-item {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.export-item-icon {
+    width: 48px;
+    height: 48px;
+}
